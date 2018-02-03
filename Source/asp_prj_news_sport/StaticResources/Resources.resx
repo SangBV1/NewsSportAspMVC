@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="English" xml:space="preserve">
+    <value>Tiếng Anh</value>
+  </data>
+  <data name="Vietnamese" xml:space="preserve">
+    <value>Tiếng Việt</value>
+  </data>
+  <data name="InsertContentCategoryFailed" xml:space="preserve">
+    <value>Thêm mới danh mục tin tức không thành công.</value>
+  </data>
+  <data name="Category_DisplayOrder" xml:space="preserve">
+    <value>Thứ tự</value>
+  </data>
+  <data name="Category_MetaDescription" xml:space="preserve">
+    <value>Mô tả SEO</value>
+  </data>
+  <data name="Category_Metakeyword" xml:space="preserve">
+    <value>Từ khoá</value>
+  </data>
+  <data name="Category_MetaTitle" xml:space="preserve">
+    <value>Alias</value>
+  </data>
+  <data name="Category_Name" xml:space="preserve">
+    <value>Tên danh mục</value>
+  </data>
+  <data name="Category_ParentId" xml:space="preserve">
+    <value>Danh mục cha</value>
+  </data>
+  <data name="Category_RequiredName" xml:space="preserve">
+    <value>Yêu cầu nhập tên danh mục</value>
+  </data>
+  <data name="Category_SeoTitle" xml:space="preserve">
+    <value>Tiêu đề seo</value>
+  </data>
+  <data name="Category_ShowOnHome" xml:space="preserve">
+    <value>Hiển thị trang chủ</value>
+  </data>
+  <data name="Category_Status" xml:space="preserve">
+    <value>Trạng thái</value>
+  </data>
+  <data name="InsertContentFailed" xml:space="preserve">
+    <value>Thêm mới tin tức không thành công</value>
+  </data>
+  <data name="Pub_InsertSuccess" xml:space="preserve">
+    <value>Thêm mới thông tin thành công</value>
+  </data>
+  <data name="InsertUserLogFailed" xml:space="preserve">
+    <value>Thêm mới User không thành công</value>
+  </data>
+  <data name="InsertUserGroupFailed" xml:space="preserve">
+    <value>Thêm mới nhóm thành viên không thành công</value>
+  </data>
+  <data name="UpdateContentFailed" xml:space="preserve">
+    <value>Cập nhật tin tức không thành công</value>
+  </data>
+  <data name="Pub_UpdateSucess" xml:space="preserve">
+    <value>Cập nhật thông tin thành công</value>
+  </data>
+  <data name="UpdateUserLogFailed" xml:space="preserve">
+    <value>Cập nhật User không không công</value>
+  </data>
+  <data name="UpdateUserGroupFailed" xml:space="preserve">
+    <value>Cập nhật nhóm người dùng không thành công</value>
+  </data>
+  <data name="InsertInfoFailed" xml:space="preserve">
+    <value>Thêm mới thông tin không thành công</value>
+  </data>
+  <data name="InsertUserCredentialFailed" xml:space="preserve">
+    <value>Phân quyền không thành công</value>
+  </data>
+  <data name="InsertMenuFailed" xml:space="preserve">
+    <value>Thêm mới Menu không thành công</value>
+  </data>
+  <data name="InsertMenuTypeFailed" xml:space="preserve">
+    <value>Thêm mới loại Menu không thành công</value>
+  </data>
+  <data name="InsertUserRoleFailed" xml:space="preserve">
+    <value>Thêm mới Role không thành công</value>
+  </data>
+  <data name="InsertAdvertisementFailed" xml:space="preserve">
+    <value>Thêm mới quảng cáo không thành công</value>
+  </data>
+  <data name="UpdateInfoFailed" xml:space="preserve">
+    <value>Cập nhật thông tin không thành công</value>
+  </data>
+  <data name="UpdateUserCredentialFailed" xml:space="preserve">
+    <value>Cập nhật phân quyền không thành công</value>
+  </data>
+  <data name="UpdateMenuFailed" xml:space="preserve">
+    <value>Cập nhật Menu không thành công</value>
+  </data>
+  <data name="UpdateMenuTypeFailed" xml:space="preserve">
+    <value>Cập nhật loại Menu không thành công</value>
+  </data>
+  <data name="UpdateUserRoleFailed" xml:space="preserve">
+    <value>Cập nhật Role không thành công</value>
+  </data>
+  <data name="EmailExists" xml:space="preserve">
+    <value>Email đã tồn tại</value>
+  </data>
+  <data name="UsernameExists" xml:space="preserve">
+    <value>Tên tài khoản đã tồn tại</value>
+  </data>
+  <data name="InsertContentGroupFailed" xml:space="preserve">
+    <value>Thêm mới nhóm danh mục tin tức không thành công</value>
+  </data>
+  <data name="UpdateContentGroupFailed" xml:space="preserve">
+    <value>Cập nhật nhóm danh mục tin tức không thành công</value>
+  </data>
+  <data name="InsertAdsPostitionFailed" xml:space="preserve">
+    <value>Thêm mới vị trí quảng cáo không thành công</value>
+  </data>
+  <data name="UpdateAdsPostitionFailed" xml:space="preserve">
+    <value>Cập nhật vị trí quảng cáo không thành công</value>
+  </data>
+  <data name="UpdateContentCategoryFailed" xml:space="preserve">
+    <value>Cập nhật danh mục tin tức không thành công.</value>
+  </data>
+  <data name="UpdateAdvertisementFailed" xml:space="preserve">
+    <value>Cập nhật quảng cáo không thành công</value>
+  </data>
+  <data name="InsertContentTagFailed" xml:space="preserve">
+    <value>Thêm mới nhãn cho tin tức không thành công</value>
+  </data>
+  <data name="UpdateContentTagFailed" xml:space="preserve">
+    <value>Cập nhật nhãn cho tin tức không thành công</value>
+  </data>
+  <data name="DeleteFailed" xml:space="preserve">
+    <value>Xóa thông tin không thành công</value>
+  </data>
+  <data name="InsertFootballClubFailed" xml:space="preserve">
+    <value>Thêm mới câu lạc bộ không thành công</value>
+  </data>
+  <data name="UpdateFootballClubFailed" xml:space="preserve">
+    <value>Cập nhật câu lạc bộ không thành công</value>
+  </data>
+  <data name="InsertFootballerFailed" xml:space="preserve">
+    <value>Thêm mới cầu thủ không thành công</value>
+  </data>
+  <data name="UpdateFootballerFailed" xml:space="preserve">
+    <value>Cập nhật cầu thủ không thành công</value>
+  </data>
+  <data name="InsertSeasonFailed" xml:space="preserve">
+    <value>Thêm mới mùa giải không thành công</value>
+  </data>
+  <data name="UpdateSeasonFailed" xml:space="preserve">
+    <value>Cập nhật mùa giải không thành công</value>
+  </data>
+  <data name="InsertSeasonClubFailed" xml:space="preserve">
+    <value>Thêm mới CLB tham gia không thành công</value>
+  </data>
+  <data name="UpdateSeasonClubFailed" xml:space="preserve">
+    <value>Cập nhật CLB tham gia không thành công</value>
+  </data>
+  <data name="InsertMatchFailed" xml:space="preserve">
+    <value>Thêm mới trận đấu không không công</value>
+  </data>
+  <data name="UpdateMatchFailed" xml:space="preserve">
+    <value>Cập nhật trận đấu không không công</value>
+  </data>
+  <data name="InsertSeasonRoundFailed" xml:space="preserve">
+    <value>Thêm mới vòng đấu mùa giải không thành công</value>
+  </data>
+  <data name="UpdateSeasonRoundFailed" xml:space="preserve">
+    <value>Cập nhật vòng đấu mùa giải không thành công</value>
+  </data>
+  <data name="InsertRuleFailed" xml:space="preserve">
+    <value>Thêm mới điều lệ giải đấu  không thành công</value>
+  </data>
+  <data name="UpdateRuleFailed" xml:space="preserve">
+    <value>Cập nhật điều lệ giải đấu không thành công</value>
+  </data>
+  <data name="InsertMatchGoalFailed" xml:space="preserve">
+    <value>Thêm mới bàn thắng không không công</value>
+  </data>
+  <data name="UpdateMatchGoalFailed" xml:space="preserve">
+    <value>Cập nhật bàn thắng không không công</value>
+  </data>
+  <data name="InsertGoalTypeFailed" xml:space="preserve">
+    <value>Thêm mới loại bàn thắng không thành công</value>
+  </data>
+  <data name="UpdateGoalTypeFailed" xml:space="preserve">
+    <value>Cập nhật loại bàn thắng không thành công</value>
+  </data>
+  <data name="RecordExist" xml:space="preserve">
+    <value>Bản ghi đã tồn tại</value>
+  </data>
+  <data name="ComfirmPasswordIncorrect" xml:space="preserve">
+    <value>Nhập lại mật khẩu không chính xác</value>
+  </data>
+</root>

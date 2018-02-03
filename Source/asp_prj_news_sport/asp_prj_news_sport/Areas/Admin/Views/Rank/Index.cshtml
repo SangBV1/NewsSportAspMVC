@@ -1,0 +1,87 @@
+﻿@model List<Model.EF.rank>
+@using CommonPublic;
+@using Model.Dao;
+@using asp_prj_news_sport.Models;
+@{
+    ViewBag.Title = "Bảng xếp hạng V League";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    var num_order = 1;
+    var match_dao = new match_dao();
+    var list_sortRule = new ListModel();
+    var rule = new general_rule_dao().GetRule();
+}
+@section jsFooter{
+    <script src="~/assets/admin/js/controller/RankController.js"></script>
+}
+<div class="agile-tables">
+    <div class="w3l-table-info">
+        <h3>Bảng xếp hạng: @(Model.Count > 0 ? Model.First().season.name : "")</h3>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-2">
+                        @Html.DropDownList("sort_type1", (SelectList)ViewData["SortRule1"],
+                        new { @class = "form-control", onchange = "this.form.submit();" })
+                    </div>
+                    <div class="col-md-2">
+                        @Html.DropDownList("sort_type2", (SelectList)ViewData["SortRule2"],
+                        new { @class = "form-control", onchange = "this.form.submit();" })
+                    </div>
+                    <div class="col-md-2">
+                        @Html.DropDownList("sort_type3", (SelectList)ViewData["SortRule3"],
+                        new { @class = "form-control", onchange = "this.form.submit();" })
+                    </div>
+                    <div class="col-md-2">
+                        @Html.DropDownList("sort_type4", (SelectList)ViewData["SortRule4"],
+                        new { @class = "form-control", onchange = "this.form.submit();" })
+                    </div>
+
+                    @using (Html.BeginForm("Index", "Rank", FormMethod.Post))
+                    {
+                    <div class="col-md-3">
+                        @Html.DropDownList("season_id", (SelectList)ViewData["Season"],
+                        new { @class = "form-control", onchange = "this.form.submit();" })
+                    </div>
+                    <div class="col-md-1">
+                        <a class="btn btn-primary sort_reload" href="#" title="Lọc">Lọc</a>
+                    </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>TT</th>
+                    <th>Logo</th>
+                    <th>Đội Bóng</th>
+                    <th>Số Trận</th>
+                    <th>Thắng</th>
+                    <th>Hòa</th>
+                    <th>Thua</th>
+                    <th>Hiệu Số</th>
+                    <th>Điểm</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr id="row_@item.id">
+                        <td>@num_order</td>
+                        <td><img src="@item.football_club.url_logo" width="50" height="50" /></td>
+                        <td>@item.football_club.name</td>
+                        <td>@match_dao.Count_Match(item.footballClub_id,item.season_id)</td>
+                        <td>@item.win_match</td>
+                        <td>@item.draw_match</td>
+                        <td>@item.lose_match</td>
+                        <td>@(item.win_score - item.lose_score)</td>
+                        <td>@((item.win_match * rule.win_score) + (item.draw_match * rule.draw_score) + (item.lose_match * rule.lose_score))</td>
+                    </tr>
+                    ++num_order;
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

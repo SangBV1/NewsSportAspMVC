@@ -1,0 +1,108 @@
+﻿@model Model.EF.user_log
+@{
+    ViewBag.Title = "Cập nhật thông tin thành viên";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-6 col-md-offset-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <strong>Cập nhật thông tin thành viên</strong>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-12">
+                        @using (Html.BeginForm("Edit", "UserLog", FormMethod.Post))
+                        {
+                            <div class="form-horizontal">
+                                @Html.AntiForgeryToken()
+                                <div class="form-group">
+                                    <div class="col-md-8 col-md-offset-4">
+                                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                @Html.HiddenFor(model => model.name_log)
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.password_log, new { @class = "control-label col-md-4" })
+                                    <div class="col-md-8">
+                                        @Html.PasswordFor(model => model.password_log, new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.password_log, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.Label("Nhập lại mật khẩu", new { @class = "control-label col-md-4" })
+                                    <div class="col-md-8">
+                                        <input type="password" name="comfirm_password" class="form-control" />
+                                        @Html.ValidationMessageFor(model => model.password_log, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.name_person, new { @class = "control-label col-md-4" })
+                                    <div class="col-md-8">
+                                        @Html.TextBoxFor(model => model.name_person, new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.name_person, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.email, new { @class = "control-label col-md-4" })
+                                    <div class="col-md-8">
+                                        @Html.TextBoxFor(model => model.email, new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.email, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.phone, new { @class = "control-label col-md-4" })
+                                    <div class="col-md-8">
+                                        @Html.TextBoxFor(model => model.phone, new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.phone, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.address_current, new { @class = "control-label col-md-4" })
+                                    <div class="col-md-8">
+                                        @Html.TextBoxFor(model => model.address_current, new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.address_current, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.user_group_id, new { @class = "control-label col-md-4" })
+                                    <div class="col-md-8">
+                                        @Html.DropDownListFor(model => model.user_group_id, (SelectList)ViewData["UserGroup"], new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.user_group_id, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.is_active, new { @class = "control-label col-md-4" })
+                                    <div class="col-md-2">
+                                        @Html.CheckBoxFor(model => model.is_active, new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.is_active, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-offset-4 col-md-12">
+                                        <input type="submit" value="Cập nhật" class="btn btn-lg btn-primary" />
+                                        <a href="/Admin/UserLog"><i class="fa fa-arrow-left" aria-hidden="true"></i> Trở về</a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

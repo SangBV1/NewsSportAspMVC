@@ -1,0 +1,123 @@
+﻿<nav class="main-menu">
+    <ul>
+        <li>
+            <a href="/Admin/Home">
+                <i class="fa fa-home nav_icon"></i>
+                <span class="nav-text">Home</span>
+            </a>
+        </li>
+        <li class="has-subnav">
+            <a href="javascript:;">
+                <i class="fa fa-cogs" aria-hidden="true"></i>
+                <span class="nav-text">Quản lý phân quyền</span>
+                <i class="icon-angle-right"></i><i class="icon-angle-down"></i>
+            </a>
+            <ul>
+                <li>
+                    <a class="subnav-text" href="/Admin/UserGroup">Nhóm thành viên</a>
+                </li>
+                <li>
+                    <a class="subnav-text" href="/Admin/UserLog">Thành viên</a>
+                </li>
+                <li>
+                    <a class="subnav-text" href="/Admin/UserCredential">Phân quyền</a>
+                </li>
+                <li>
+                    <a class="subnav-text" href="/Admin/UserRole">Role</a>
+                </li>
+            </ul>
+        </li>
+        <li class="has-subnav">
+            <a href="javascript:;">
+                <i class="fa fa-check-square-o nav_icon"></i>
+                <span class="nav-text">Quản lý bố cục</span>
+                <i class="icon-angle-right"></i><i class="icon-angle-down"></i>
+            </a>
+            <ul>
+                <li>
+                    <a class="subnav-text" href="/Admin/MenuType">Loại Menu</a>
+                </li>
+                <li>
+                    <a class="subnav-text" href="/Admin/Menu">Menu</a>
+                </li>
+                <li>
+                    <a class="subnav-text" href="/Admin/AdsPosition">Loại quảng cáo</a>
+                </li>
+                <li>
+                    <a class="subnav-text" href="/Admin/Advertisement">Quảng cáo</a>
+                </li>
+            </ul>
+        </li>
+        <li class="has-subnav">
+            <a href="javascript:;">
+                <i class="fa fa-file-text-o nav_icon"></i>
+                <span class="nav-text">Quản lý bài viết</span>
+                <i class="icon-angle-right"></i><i class="icon-angle-down"></i>
+            </a>
+            <ul>
+                <li>
+                    <a class="subnav-text" href="/Admin/ContentCate">Loại bài viết</a>
+                </li>
+                <li>
+                    <a class="subnav-text" href="/Admin/Content">Bài viết</a>
+                </li>
+                <li>
+                    <a class="subnav-text" href="/Admin/Tag">Tags</a>
+                </li>
+            </ul>
+        </li>
+        <li class="has-subnav">
+            <a href="javascript:;">
+                <i class="fa fa-futbol-o nav_icon"></i>
+                <span class="nav-text">Quản lý giải V League</span>
+                <i class="icon-angle-right"></i><i class="icon-angle-down"></i>
+            </a>
+            <ul>
+                <li>
+                    <a class="subnav-text" href="/Admin/Season">Mùa giải - CLB</a>
+                </li>
+                <li>
+                    <a class="subnav-text" href="/Admin/FootballClub">Câu lạc bộ</a>
+                </li>
+                <li>
+                    <a class="subnav-text" href="/Admin/Footballer">Cầu thủ</a>
+                </li>
+                <li>
+                    <a class="subnav-text" href="/Admin/Match">Lịch thi đấu</a>
+                </li>
+                <li>
+                    <a class="subnav-text" href="/Admin/MatchGoal">Bàn thắng</a>
+                </li>
+                <li>
+                    <a class="subnav-text" href="/Admin/GoalType">Loại bàn thắng</a>
+                </li>
+                <li>
+                    <a class="subnav-text" href="/Admin/Rank">Bảng xếp hạng</a>
+                </li>
+                <li>
+                    <a class="subnav-text" href="/Admin/Rule">Điều lệ</a>
+                </li>
+            </ul>
+        </li>
+        <li class="has-subnav">
+            <a href="javascript:;">
+                <i class="fa fa-list-ul nav_icon"></i>
+                <span class="nav-text">Quản lý chung</span>
+                <i class="icon-angle-right"></i><i class="icon-angle-down"></i>
+            </a>
+            <ul>
+                <li>
+                    <a class="subnav-text" href="/Admin/Info">Thông tin Web</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <ul class="logout">
+        <li>
+            <a href="@Url.Action("Logout","Login")">
+                <i class="icon-off nav-icon"></i>
+                <span class="nav-text">Đăng xuất</span>
+            </a>
+        </li>
+    </ul>
+</nav>

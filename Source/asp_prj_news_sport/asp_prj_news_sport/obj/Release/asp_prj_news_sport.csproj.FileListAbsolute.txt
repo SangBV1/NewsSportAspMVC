@@ -1,0 +1,380 @@
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\ApplicationInsights.config
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\csc.exe
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\System.Collections.Immutable.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\System.Reflection.Metadata.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\vbc.exe
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\VBCSCompiler.exe
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\VBCSCompiler.exe.config
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\asp_prj_news_sport.dll.config
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\asp_prj_news_sport.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\asp_prj_news_sport.pdb
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Antlr3.Runtime.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\CKFinder.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Common.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\EntityFramework.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\EntityFramework.SqlServer.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.Agent.Intercept.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.DependencyCollector.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.Web.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.WindowsServer.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.ApplicationInsights.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.Core.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Cookies.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Facebook.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Google.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.OAuth.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Twitter.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Web.Infrastructure.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Model.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Newtonsoft.Json.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Owin.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\PagedList.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\PagedList.Mvc.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\StaticResources.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Helpers.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Mvc.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Optimization.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Razor.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.Deployment.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.Razor.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\WebGrease.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Common.pdb
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Model.pdb
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\StaticResources.pdb
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.DependencyCollector.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.Web.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.WindowsServer.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.ApplicationInsights.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\PagedList.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\PagedList.Mvc.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Helpers.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Mvc.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Optimization.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Razor.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.Deployment.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.Razor.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Antlr3.Runtime.pdb
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Newtonsoft.Json.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\EntityFramework.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\EntityFramework.SqlServer.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.Core.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Facebook.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Cookies.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.OAuth.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Google.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Twitter.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\en\StaticResources.resources.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\obj\Release\asp_prj_news_sport.csprojResolveAssemblyReference.cache
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\obj\Release\asp_prj_news_sport.dll
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\obj\Release\asp_prj_news_sport.pdb
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\asp_prj_news_sport.dll.CodeAnalysisLog.xml
+E:\tmp\project\asp_prj_news_sport\asp_prj_news_sport\bin\asp_prj_news_sport.dll.lastcodeanalysissucceeded
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\ApplicationInsights.config
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\csc.exe
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\vbc.exe
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\VBCSCompiler.exe
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\asp_prj_news_sport.dll.config
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\asp_prj_news_sport.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\asp_prj_news_sport.pdb
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Antlr3.Runtime.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\CKFinder.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Common.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\EntityFramework.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\EntityFramework.SqlServer.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.Web.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.ApplicationInsights.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Model.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Newtonsoft.Json.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Owin.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\PagedList.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\PagedList.Mvc.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\StaticResources.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Helpers.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Mvc.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Optimization.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Razor.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.Razor.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\WebGrease.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Common.pdb
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Model.pdb
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\StaticResources.pdb
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.Web.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.ApplicationInsights.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\PagedList.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\PagedList.Mvc.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Helpers.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Mvc.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Optimization.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Razor.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.Razor.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Antlr3.Runtime.pdb
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Newtonsoft.Json.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\EntityFramework.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\EntityFramework.SqlServer.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\en\StaticResources.resources.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\obj\Release\asp_prj_news_sport.csprojResolveAssemblyReference.cache
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\obj\Release\asp_prj_news_sport.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\obj\Release\asp_prj_news_sport.pdb
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\ApplicationInsights.config
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\csc.exe
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\System.Collections.Immutable.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\System.Reflection.Metadata.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\vbc.exe
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\VBCSCompiler.exe
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\VBCSCompiler.exe.config
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\asp_prj_news_sport.dll.config
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\asp_prj_news_sport.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\asp_prj_news_sport.pdb
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Antlr3.Runtime.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\CKFinder.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Common.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\EntityFramework.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\EntityFramework.SqlServer.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.Agent.Intercept.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.DependencyCollector.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.Web.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.WindowsServer.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.ApplicationInsights.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.Core.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Cookies.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Facebook.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Google.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.OAuth.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Twitter.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Web.Infrastructure.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Model.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Newtonsoft.Json.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Owin.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\PagedList.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\PagedList.Mvc.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\StaticResources.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Helpers.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Mvc.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Optimization.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Razor.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.Deployment.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.Razor.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\WebGrease.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Common.pdb
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Model.pdb
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\StaticResources.pdb
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.DependencyCollector.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.Web.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.WindowsServer.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.ApplicationInsights.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\PagedList.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\PagedList.Mvc.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Helpers.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Mvc.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Optimization.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Razor.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.Deployment.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.Razor.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Antlr3.Runtime.pdb
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Newtonsoft.Json.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\EntityFramework.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\EntityFramework.SqlServer.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.Core.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Facebook.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Cookies.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.OAuth.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Google.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Twitter.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\en\StaticResources.resources.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\obj\Release\asp_prj_news_sport.csprojResolveAssemblyReference.cache
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\obj\Release\asp_prj_news_sport.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\obj\Release\asp_prj_news_sport.pdb
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\ApplicationInsights.config
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\csc.exe
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\System.Collections.Immutable.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\System.Reflection.Metadata.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\vbc.exe
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\VBCSCompiler.exe
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\roslyn\VBCSCompiler.exe.config
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\asp_prj_news_sport.dll.config
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\asp_prj_news_sport.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\asp_prj_news_sport.pdb
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Antlr3.Runtime.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\CKFinder.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Common.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\EntityFramework.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\EntityFramework.SqlServer.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.Agent.Intercept.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.DependencyCollector.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.Web.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.WindowsServer.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.ApplicationInsights.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.Core.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Cookies.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Facebook.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Google.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.OAuth.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Twitter.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Web.Infrastructure.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Model.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Newtonsoft.Json.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Owin.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\PagedList.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\PagedList.Mvc.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\StaticResources.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Helpers.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Mvc.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Optimization.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Razor.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.Deployment.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.Razor.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\WebGrease.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Common.pdb
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Model.pdb
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Model.dll.config
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\StaticResources.pdb
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.DependencyCollector.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.Web.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AI.WindowsServer.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.ApplicationInsights.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\PagedList.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\PagedList.Mvc.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Helpers.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Mvc.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Optimization.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.Razor.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.Deployment.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\System.Web.WebPages.Razor.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Antlr3.Runtime.pdb
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Newtonsoft.Json.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\EntityFramework.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\EntityFramework.SqlServer.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.Core.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Facebook.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Cookies.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.OAuth.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Google.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.Twitter.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\bin\en\StaticResources.resources.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\obj\Release\asp_prj_news_sport.csprojResolveAssemblyReference.cache
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\obj\Release\asp_prj_news_sport.csproj.CoreCompileInputs.cache
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\obj\Release\asp_prj_news_sport.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\asp_prj_news_sport\obj\Release\asp_prj_news_sport.pdb

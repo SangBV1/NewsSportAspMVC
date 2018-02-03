@@ -1,0 +1,36 @@
+﻿@{
+    var list_banner = (List<Model.EF.advertisement>)ViewBag.ListBanner;
+}
+
+<!-- banner -->
+<div class="banner">
+    <script src="~/assets/client/js/responsiveslides.min.js"></script>
+    <script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	speed: 300,
+        manualControls: '#slider3-pager',
+      });
+    });
+    </script>
+
+    <div class="slider">
+        <div class="callbacks_container">
+            <ul class="rslides" id="slider">
+                @foreach (var item in list_banner)
+                {
+                <li>
+                    <img src="@item.url_image" alt="No Image">
+                    <div class="banner-info">
+                        <h3>V-League 2017</h3>
+                        <p>Giải bóng đá vô địch quốc gia, nơi các trận đấu kịch tính diễn ra, 
+                        căng thẳng từng vòng đấu tranh dành thứ hạng</p>
+                    </div>
+                </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- //banner -->

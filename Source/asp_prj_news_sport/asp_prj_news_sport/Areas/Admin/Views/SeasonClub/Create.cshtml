@@ -1,0 +1,57 @@
+﻿@model Model.EF.season_club
+@{
+    ViewBag.Title = "Thêm mới CLB tham gia mua giải";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="row">
+    <div class="col-lg-6 col-md-offset-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <strong>Nhập thông tin</strong>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-12">
+                        @using (Html.BeginForm("Create", "SeasonClub", FormMethod.Post))
+                        {
+                            <div class="form-horizontal">
+                                @Html.AntiForgeryToken()
+                                <div class="form-group">
+                                    <div class="col-md-8 col-md-offset-1">
+                                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.idx_season_id, new { @class = "control-label col-md-4" })
+                                    <div class="col-md-8">
+                                        @Html.DropDownListFor(model => model.idx_season_id, (SelectList)ViewData["Season"], new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.idx_season_id, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.idx_fooballClub_id, new { @class = "control-label col-md-4" })
+                                    <div class="col-md-8">
+                                        @Html.DropDownListFor(model => model.idx_fooballClub_id, (SelectList)ViewData["Club"], new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.idx_fooballClub_id, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-offset-4 col-md-12">
+                                        <input type="submit" value="Thêm mới" class="btn btn-lg btn-primary" />
+                                        <a href="/Admin/Season?season_id=@Request.QueryString["season_id"]"><i class="fa fa-arrow-left" aria-hidden="true"></i> Trở về</a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

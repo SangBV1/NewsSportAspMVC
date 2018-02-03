@@ -1,0 +1,111 @@
+﻿@model Model.EF.content
+@using CommonPublic;
+@{
+    ViewBag.Title = Model.name;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var request_url = Request.Url;
+    var fb_link = "https://www.facebook.com/sharer/sharer.php?u=" + request_url;
+    var glus_link = "http://plus.google.com/share?url=" + request_url;
+
+    var ListRelatedPost = (List<Model.EF.content>)ViewBag.RelatedPost;
+    var ListContentTag = (List<Model.EF.tag>)ViewBag.ContentTag;
+    var Advertisement_300x600 = (Model.EF.advertisement)ViewBag.Advertisement_300x600;
+    var Advertisement_300x250 = (Model.EF.advertisement)ViewBag.Advertisement_300x250;
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <!--breadcrumb -->
+            <div>
+                <ol class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li class="active"><a href="/@Model.meta_title-@Model.id">@Model.name</a></li>
+                </ol>
+            </div>
+            <!--//breadcrumb -->
+            <div class="post-detail">
+                <div class="single-left-grid">
+                    <div class="entry-content">
+                        <h1>@Model.name</h1>
+                        <div class="entry-description">
+                            @Html.Raw(@Model.meta_description)
+                        </div>
+                        <div class="entry-detail">
+                            @Html.Raw(@Model.detail)
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="td-post-tag">
+                <ul class="td-post-tag-box">
+                    <li><span>TAGS</span></li>
+                    @foreach (var item in ListContentTag)
+                    {
+                        <li><a href="/tag/@item.id">@item.name</a></li>
+                    }
+                </ul>
+            </div>
+
+            <div class="td-post-sharing">
+                <div class="td-post-share-title">
+                    <span>Chia sẻ</span>
+                </div>
+                <div class="td-default-sharing fb-share-button">
+                    <a href="@fb_link" target="_new" class="social-but-fb share-content" data-id="@Model.id" onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=350,toolbar=0'); return false;"><i class="fa fa-facebook"></i>Facebook</a>
+                    <a href="@glus_link" target="_new" class="social-but-gl" onclick="window.open(this.href, 'mywin','left=50,top=50,width=600,height=500,toolbar=0'); return false;"><i class="fa fa-google-plus"></i>Google Plus</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="related-box">
+                <h3>THEO DÕI</h3>
+                <div class="fb-page" data-href="https://www.facebook.com/TorW3D/" data-tabs="timeline" data-width="350" data-height="250" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/TorW3D/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/TorW3D/">Tor WD</a></blockquote></div>
+            </div>
+            <div class="ad-center">
+                <a href="@Advertisement_300x600.url_source" class="click-ad" data-id="@Advertisement_300x600.id"><img src="@Advertisement_300x600.url_image" class="img-responsive" alt="@Advertisement_300x600.description_ad"></a>
+            </div>
+            <div class="ad-center">
+                <a href="@Advertisement_300x250.url_source" class="click-ad" data-id="@Advertisement_300x250.id"><img src="@Advertisement_300x250.url_image" class="img-responsive" alt="@Advertisement_300x250.description_ad"></a>
+            </div>
+         </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<!--New Post-->
+<div class="featured-news">
+    <div class="container">
+        <div class="ftrd-head text-center">
+            <h3>CÙNG CHUYÊN MỤC</h3>
+        </div>
+        <div class="event-grids">
+            @if (Model != null)
+            {
+                foreach (var item in ListRelatedPost)
+                {
+                    var url = "/" + @item.meta_title + "-" + @item.id;
+                    <div class="col-md-4 event-grid-sec">
+                        <div class="event-time text-center">
+                            <p>@item.created_at.Value.ToString("yyyy-MM-dd")</p>
+                        </div>
+                        <div class="event-grid_pic">
+                            <a href="@url" class="click-content" data-id="@item.id"><img src="@item.url_image" alt="@item.name" /></a>
+                            <h3><a href="@url" class="click-content" data-id="@item.id">@item.name</a></h3>
+                            <p>@StringHelper.SubDescriptionPost(item.description_content)</p>
+                        </div>
+                    </div>
+                }
+                <div class="clearfix"></div>
+            }
+            else
+            {
+                <div class="alert alert-danger">
+                    <p>Hiện đang cập nhật nội dung</p>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<!-- //New Post-->

@@ -1,0 +1,111 @@
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\Model.dll.config
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\Model.dll
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\Model.pdb
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\Common.dll
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\EntityFramework.dll
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\EntityFramework.SqlServer.dll
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\PagedList.dll
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\PagedList.Mvc.dll
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\System.Web.Mvc.dll
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.dll
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\System.Web.Razor.dll
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.Razor.dll
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\Microsoft.Web.Infrastructure.dll
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.Deployment.dll
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\Common.pdb
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\EntityFramework.xml
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\EntityFramework.SqlServer.xml
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\PagedList.xml
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\PagedList.Mvc.xml
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\System.Web.Mvc.xml
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.xml
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\System.Web.Razor.xml
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.Razor.xml
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.Deployment.xml
+E:\tmp\project\asp_prj_news_sport\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
+E:\tmp\project\asp_prj_news_sport\Model\obj\Release\Model.dll
+E:\tmp\project\asp_prj_news_sport\Model\obj\Release\Model.pdb
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\Model.dll.CodeAnalysisLog.xml
+E:\tmp\project\asp_prj_news_sport\Model\bin\Release\Model.dll.lastcodeanalysissucceeded
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\Model.dll.config
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\Model.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\Model.pdb
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\Common.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\EntityFramework.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\PagedList.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\PagedList.Mvc.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.Mvc.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.Razor.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.Razor.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\Microsoft.Web.Infrastructure.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.Deployment.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\Common.pdb
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\EntityFramework.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\PagedList.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\PagedList.Mvc.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.Mvc.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.Razor.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.Razor.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.Deployment.xml
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\obj\Release\Model.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\obj\Release\Model.pdb
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\Model.dll.config
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\Model.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\Model.pdb
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\Common.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\EntityFramework.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\EntityFramework.SqlServer.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\PagedList.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\PagedList.Mvc.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.Mvc.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.Razor.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.Razor.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\Microsoft.Web.Infrastructure.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.Deployment.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\Common.pdb
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\EntityFramework.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\EntityFramework.SqlServer.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\PagedList.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\PagedList.Mvc.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.Mvc.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.Razor.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.Razor.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.Deployment.xml
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\obj\Release\Model.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\obj\Release\Model.pdb
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\Model.dll.config
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\Model.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\Model.pdb
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\Common.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\EntityFramework.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\EntityFramework.SqlServer.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\PagedList.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\PagedList.Mvc.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.Mvc.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.Razor.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.Razor.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\Microsoft.Web.Infrastructure.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.Deployment.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\Common.pdb
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\EntityFramework.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\EntityFramework.SqlServer.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\PagedList.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\PagedList.Mvc.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.Mvc.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.Razor.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.Razor.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\bin\Release\System.Web.WebPages.Deployment.xml
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\obj\Release\Model.csprojResolveAssemblyReference.cache
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\obj\Release\Model.csproj.CoreCompileInputs.cache
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\obj\Release\Model.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\Model\obj\Release\Model.pdb

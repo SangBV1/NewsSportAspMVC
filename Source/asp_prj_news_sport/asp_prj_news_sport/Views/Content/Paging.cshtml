@@ -1,0 +1,65 @@
+﻿<!--paging-->
+<div class="paging-box">
+    <div class="pagination">
+        <!-- Phan Trang -->
+        @if (ViewBag.TotalPage > 1)
+        {
+            int pageDisplay = (int)ViewBag.MaxPage;
+            int totalPage = (int)ViewBag.TotalPage;
+            int currentPage = (int)ViewBag.Page;
+
+            var startPageIndex = Math.Max(1, currentPage - pageDisplay / 2);
+            var endPageIndex = Math.Min(totalPage, currentPage + pageDisplay / 2);
+
+            var queryString = Request.QueryString["sortType"];
+            if (currentPage > ViewBag.First)
+            {
+                if (queryString != null)
+                {
+                    <a href="?page=@ViewBag.First&sortType=@queryString" title="Trang đầu"><i class="fa fa-angle-double-left"></i></a>
+                                    <a href="?page=@ViewBag.Prev&sortType=@queryString" title="Trang trước"><i class="fa fa-angle-left"></i></a>
+                }
+                else
+                {
+                    <a href="?page=@ViewBag.First" title="Trang đầu"><i class="fa fa-angle-double-left"></i></a>
+                                    <a href="?page=@ViewBag.Prev" title="Trang trước"><i class="fa fa-angle-left"></i></a>
+                }
+            }
+
+            for (int i = startPageIndex; i <= endPageIndex; i++)
+            {
+                if (currentPage == i)
+                {
+                    if (queryString != null)
+                    {
+                        <a href="?page=@i&sortType=@queryString" class="active" title="Trang @i">@i</a>
+                    }
+                    else
+                    {
+                        <a href="?page=@i" class="active" title="Trang @i">@i</a>
+                    }
+
+                }
+                else
+                {
+                    <a href="@(queryString != null ? "?page=" + @i + "&sortType=" +@queryString : "?page="+@i)" title="Trang @i">@i</a>
+                }
+            }
+
+            if (currentPage < totalPage)
+            {
+                if (queryString != null)
+                {
+                    <a href="?page=@ViewBag.Next&sortType=@queryString" title="Trang sau" class="next"><i class="fa fa-angle-right"></i></a>
+                                    <a href="?page=@ViewBag.Last&sortType=@queryString" title="Trang cuối" class="last"><i class="fa fa-angle-double-right"></i></a>
+                }
+                else
+                {
+                    <a href="?page=@ViewBag.Next" title="Trang sau" class="next"><i class="fa fa-angle-right"></i></a>
+                                    <a href="?page=@ViewBag.Last" title="Trang cuối" class="last"><i class="fa fa-angle-double-right"></i></a>
+                }
+            }
+        }
+        <div class="clearfix"></div>
+    </div>
+</div>

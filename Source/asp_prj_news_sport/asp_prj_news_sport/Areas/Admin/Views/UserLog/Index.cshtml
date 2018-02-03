@@ -1,0 +1,60 @@
+﻿@model PagedList.IPagedList<Model.EF.user_log>
+@using PagedList.Mvc;
+@using CommonPublic;
+@{
+    ViewBag.Title = "Thành viên quản trị";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@section jsFooter{
+    <script src="/assets/admin/js/controller/UserLogController.js"></script>
+}
+<div class="agile-tables">
+    <div class="w3l-table-info">
+        <h3>Thành viên quản trị</h3>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-lg-12">
+                    <a class="btn btn-primary delete_all" href="#"><i class='fa fa-trash' aria-hidden='true'></i></a>
+                    <a class="btn btn-primary" href="/Admin/UserLog/Create">thêm mới</a>
+                </div>
+            </div>
+        </div>
+        <table id="table" class="">
+            <thead>
+                <tr>
+                    <th><input type="checkbox" id="chk_all"> All</th>
+                    <th>Tên</th>
+                    <th>Email</th>
+                    <th>Nhóm</th>
+                    <th>Ngày tạo</th>
+                    <th>Trạng thái</th>
+                    <th>#</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr id="row_@item.id">
+                        <td><input type="checkbox" class="sub_chk" data-id="@item.id"></td>
+                        <td>@item.name_person</td>
+                        <td>@item.email</td>
+                        <td>@item.user_group.name</td>
+                        <td>@item.created_at</td>
+                        <td><a href="#" class="btn-active" data-id="@item.id">@Html.Raw(item.is_active ? "<strong>YES</strong>" : "NO")</a></td>
+                        <td>
+                            <a href="/Admin/UserLog/Edit/@item.id"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                            |
+                            <a href="#" class="remove_row" data-id="@item.id"><i class='fa fa-trash' aria-hidden='true'></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+    </div>
+</div>
+
+
+
+
+

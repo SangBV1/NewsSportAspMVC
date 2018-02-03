@@ -1,0 +1,72 @@
+﻿@model PagedList.IPagedList<Model.EF.user_credential>
+@using PagedList.Mvc;
+@using CommonPublic;
+@{
+    ViewBag.Title = "Phân quyền chức năng nhóm thành viên";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@section jsFooter{
+    <script src="/assets/admin/js/controller/UserCredentialController.js"></script>
+}
+<div class="agile-tables">
+    <div class="w3l-table-info">
+        <h3>Phân quyền chức năng nhóm thành viên</h3>
+
+        <div class="form-group">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-md-1">
+                        <div class="col-md-12">
+                            <a class="btn btn-primary delete_all" href="#"><i class='fa fa-trash' aria-hidden='true'></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        @using (Html.BeginForm("Index", "UserCredential", FormMethod.Post))
+                        {
+                            <div class="col-md-5">
+                                @Html.DropDownList("user_group", (SelectList)ViewData["UserGroup"],
+                            new { @class = "form-control", onchange = "this.form.submit();" })
+                            </div>
+                            <div class="col-md-5">
+                                @Html.DropDownList("user_role", (SelectList)ViewData["UserRole"],new { @class = "form-control" })
+                            </div>
+                            <div class="col-md-2">
+                                <a class="btn btn-primary add_new" href="#">Thêm mới</a>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <table id="table" class="">
+            <thead>
+                <tr>
+                    <th><input type="checkbox" id="chk_all">All</th>
+                    <th>Nhóm thành viên</th>
+                    <th>Chức năng</th>
+                    <th>#</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr id="row_@item.id">
+                        <td><input type="checkbox" class="sub_chk" data-id="@item.id"></td>
+                        <td>@item.user_group.name</td>
+                        <td>@item.user_role.name</td>
+                        <td>
+                            <a href="#" class="remove_row" data-id="@item.id"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page ,user_group = ViewBag.CurrentUserGroup }))
+    </div>
+</div>
+
+
+
+
+

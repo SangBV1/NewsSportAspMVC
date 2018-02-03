@@ -1,0 +1,85 @@
+C:\Users\ToanBN\Documents\Visual Studio 2015\Projects\OnlineShop\StaticResources\bin\Debug\StaticResources.dll
+C:\Users\ToanBN\Documents\Visual Studio 2015\Projects\OnlineShop\StaticResources\bin\Debug\StaticResources.pdb
+C:\Users\ToanBN\Documents\Visual Studio 2015\Projects\OnlineShop\StaticResources\bin\Debug\en\StaticResources.resources.dll
+C:\Users\ToanBN\Documents\Visual Studio 2015\Projects\OnlineShop\StaticResources\obj\Debug\StaticResources.Resources.resources
+C:\Users\ToanBN\Documents\Visual Studio 2015\Projects\OnlineShop\StaticResources\obj\Debug\StaticResources.Resources.en.resources
+C:\Users\ToanBN\Documents\Visual Studio 2015\Projects\OnlineShop\StaticResources\obj\Debug\StaticResources.csproj.GenerateResource.Cache
+C:\Users\ToanBN\Documents\Visual Studio 2015\Projects\OnlineShop\StaticResources\obj\Debug\en\StaticResources.resources.dll
+C:\Users\ToanBN\Documents\Visual Studio 2015\Projects\OnlineShop\StaticResources\obj\Debug\StaticResources.dll
+C:\Users\ToanBN\Documents\Visual Studio 2015\Projects\OnlineShop\StaticResources\obj\Debug\StaticResources.pdb
+C:\Users\SUONG\Desktop\OnlineShop\StaticResources\bin\Debug\StaticResources.dll
+C:\Users\SUONG\Desktop\OnlineShop\StaticResources\bin\Debug\StaticResources.pdb
+C:\Users\SUONG\Desktop\OnlineShop\StaticResources\bin\Debug\en\StaticResources.resources.dll
+C:\Users\SUONG\Desktop\OnlineShop\StaticResources\obj\Debug\StaticResources.Resources.resources
+C:\Users\SUONG\Desktop\OnlineShop\StaticResources\obj\Debug\StaticResources.Resources.en.resources
+C:\Users\SUONG\Desktop\OnlineShop\StaticResources\obj\Debug\StaticResources.csproj.GenerateResource.Cache
+C:\Users\SUONG\Desktop\OnlineShop\StaticResources\obj\Debug\en\StaticResources.resources.dll
+C:\Users\SUONG\Desktop\OnlineShop\StaticResources\obj\Debug\StaticResources.dll
+C:\Users\SUONG\Desktop\OnlineShop\StaticResources\obj\Debug\StaticResources.pdb
+C:\Users\SUONG\Desktop\OnlineShop\StaticResources\obj\Debug\StaticResources.csprojResolveAssemblyReference.cache
+C:\Users\SUONG\Desktop\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\bin\Debug\StaticResources.dll
+C:\Users\SUONG\Desktop\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\bin\Debug\StaticResources.pdb
+C:\Users\SUONG\Desktop\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\bin\Debug\en\StaticResources.resources.dll
+C:\Users\SUONG\Desktop\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\obj\Debug\StaticResources.Resources.resources
+C:\Users\SUONG\Desktop\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\obj\Debug\StaticResources.Resources.en.resources
+C:\Users\SUONG\Desktop\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\obj\Debug\StaticResources.csproj.GenerateResource.Cache
+C:\Users\SUONG\Desktop\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\obj\Debug\en\StaticResources.resources.dll
+C:\Users\SUONG\Desktop\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\obj\Debug\StaticResources.dll
+C:\Users\SUONG\Desktop\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\obj\Debug\StaticResources.pdb
+C:\Users\SUONG\Desktop\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\obj\Debug\StaticResources.csprojResolveAssemblyReference.cache
+C:\Users\SUONG\Desktop\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\obj\Debug\StaticResources.WebResources.resources
+C:\Users\SUONG\Desktop\tmp\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\bin\Debug\StaticResources.dll
+C:\Users\SUONG\Desktop\tmp\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\bin\Debug\StaticResources.pdb
+C:\Users\SUONG\Desktop\tmp\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\bin\Debug\en\StaticResources.resources.dll
+C:\Users\SUONG\Desktop\tmp\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\obj\Debug\StaticResources.csprojResolveAssemblyReference.cache
+C:\Users\SUONG\Desktop\tmp\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\obj\Debug\StaticResources.Resources.resources
+C:\Users\SUONG\Desktop\tmp\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\obj\Debug\StaticResources.WebResources.resources
+C:\Users\SUONG\Desktop\tmp\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\obj\Debug\StaticResources.Resources.en.resources
+C:\Users\SUONG\Desktop\tmp\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\obj\Debug\StaticResources.csproj.GenerateResource.Cache
+C:\Users\SUONG\Desktop\tmp\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\obj\Debug\en\StaticResources.resources.dll
+C:\Users\SUONG\Desktop\tmp\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\obj\Debug\StaticResources.dll
+C:\Users\SUONG\Desktop\tmp\Prj_WebAffiliateShop\AffiliateShopTrial\StaticResources\obj\Debug\StaticResources.pdb
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\bin\Debug\StaticResources.dll
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\bin\Debug\StaticResources.pdb
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\bin\Debug\en\StaticResources.resources.dll
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\obj\Debug\StaticResources.Resources.resources
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\obj\Debug\StaticResources.WebResources.resources
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\obj\Debug\StaticResources.Resources.en.resources
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\obj\Debug\StaticResources.csproj.GenerateResource.Cache
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\obj\Debug\en\StaticResources.resources.dll
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\obj\Debug\StaticResources.dll
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\obj\Debug\StaticResources.pdb
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\obj\Debug\StaticResources.csprojResolveAssemblyReference.cache
+E:\tmp\prj_torwd\StaticResources\bin\Debug\StaticResources.dll
+E:\tmp\prj_torwd\StaticResources\bin\Debug\StaticResources.pdb
+E:\tmp\prj_torwd\StaticResources\bin\Debug\en\StaticResources.resources.dll
+E:\tmp\prj_torwd\StaticResources\obj\Debug\StaticResources.csprojResolveAssemblyReference.cache
+E:\tmp\prj_torwd\StaticResources\obj\Debug\StaticResources.Resources.resources
+E:\tmp\prj_torwd\StaticResources\obj\Debug\StaticResources.WebResources.resources
+E:\tmp\prj_torwd\StaticResources\obj\Debug\StaticResources.Resources.en.resources
+E:\tmp\prj_torwd\StaticResources\obj\Debug\StaticResources.csproj.GenerateResource.Cache
+E:\tmp\prj_torwd\StaticResources\obj\Debug\en\StaticResources.resources.dll
+E:\tmp\prj_torwd\StaticResources\obj\Debug\StaticResources.dll
+E:\tmp\prj_torwd\StaticResources\obj\Debug\StaticResources.pdb
+E:\tmp\project\asp_prj_news_sport\StaticResources\bin\Debug\StaticResources.dll
+E:\tmp\project\asp_prj_news_sport\StaticResources\bin\Debug\StaticResources.pdb
+E:\tmp\project\asp_prj_news_sport\StaticResources\bin\Debug\en\StaticResources.resources.dll
+E:\tmp\project\asp_prj_news_sport\StaticResources\obj\Debug\StaticResources.Resources.resources
+E:\tmp\project\asp_prj_news_sport\StaticResources\obj\Debug\StaticResources.WebResources.resources
+E:\tmp\project\asp_prj_news_sport\StaticResources\obj\Debug\StaticResources.Resources.en.resources
+E:\tmp\project\asp_prj_news_sport\StaticResources\obj\Debug\StaticResources.csproj.GenerateResource.Cache
+E:\tmp\project\asp_prj_news_sport\StaticResources\obj\Debug\en\StaticResources.resources.dll
+E:\tmp\project\asp_prj_news_sport\StaticResources\obj\Debug\StaticResources.dll
+E:\tmp\project\asp_prj_news_sport\StaticResources\obj\Debug\StaticResources.pdb
+E:\tmp\project\asp_prj_news_sport\StaticResources\obj\Debug\StaticResources.csprojResolveAssemblyReference.cache
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\bin\Debug\StaticResources.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\bin\Debug\StaticResources.pdb
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\bin\Debug\en\StaticResources.resources.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Debug\StaticResources.csprojResolveAssemblyReference.cache
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Debug\StaticResources.Resources.resources
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Debug\StaticResources.WebResources.resources
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Debug\StaticResources.Resources.en.resources
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Debug\StaticResources.csproj.GenerateResource.Cache
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Debug\en\StaticResources.resources.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Debug\StaticResources.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Debug\StaticResources.pdb

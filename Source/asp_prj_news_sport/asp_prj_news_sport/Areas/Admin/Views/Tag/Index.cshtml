@@ -1,0 +1,25 @@
+﻿@model PagedList.IPagedList<Model.EF.tag>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Tag | TorWD";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="container-fluid">
+    <div class="agile-tables">
+        <div class="w3l-table-info">
+            <h3>Tags : @Model.Count</h3>
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-sm-2"><span class="tag-box">@item.name</span></div>
+                }
+            </div>
+            @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+        </div>
+    </div>
+</div>
+
+
+
+
+

@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Trang chủ";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="banner">
+    <h2>
+        <a href="index.html">Home</a>
+    </h2>
+</div>
+
+@RenderPage("Social.cshtml")
+@RenderPage("Statistical.cshtml")

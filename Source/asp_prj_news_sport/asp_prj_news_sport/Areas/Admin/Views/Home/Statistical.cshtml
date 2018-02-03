@@ -1,0 +1,85 @@
+﻿@{
+    var ListContentTag = (List<Model.ViewModel.content_tag_view>)ViewBag.ListContentTag;
+    var ListContentView = (List<Model.EF.content>)ViewBag.ListContentView;
+    var ListAdClick = (List<Model.EF.advertisement>)ViewBag.ListAdClick;
+}
+<!--Top Counting-->
+<div class="agile-last-grids">
+    <div class="col-md-4 agile-last-left">
+        <div class="agile-tables">
+            <div class="w3l-table-info">
+                <h4>Lượt xem bài viết</h4>
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <th>Tiêu đề</th>
+                            <th>View</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in ListContentView)
+                        {
+                            <tr>
+                                <td>@item.name</td>
+                                <td>@item.view_count</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!--Advertisement-->
+    <div class="col-md-4 agile-last-left agile-last-middle">
+        <div class="agile-tables">
+            <div class="w3l-table-info">
+                <h4>Quảng cáo - Click</h4>
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <th>Tên</th>
+                            <th>Click</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in ListAdClick)
+                        {
+                            <tr>
+                                <td>@item.description_ad</td>
+                                <td>@item.click_count</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!--Tag - Content -->
+    <div class="col-md-4 agile-last-left agile-last-right">
+        <div class="agile-tables">
+            <div class="w3l-table-info">
+                <h4>Thẻ tag trong bài viết</h4>
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <th>Tag</th>
+                            <th>Số bài viết</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in ListContentTag)
+                        {
+                            <tr>
+                                <td>@item.tag</td>
+                                <td>@item.number_content</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"> </div>
+</div>

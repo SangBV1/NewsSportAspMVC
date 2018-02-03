@@ -1,0 +1,101 @@
+﻿@model Model.EF.advertisement
+@{
+    ViewBag.Title = "Cập nhật thông tin quảng cáo";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@section jsFooter{
+    <script>
+        $('#btnSelectImage').on('click', function (e) {
+            e.preventDefault();
+            var finder = new CKFinder();
+            finder.selectActionFunction = function (url) {
+                $('#txtImage').val(url);
+            };
+            finder.popup();
+        })
+    </script>
+}
+<div class="row">
+    <div class="col-lg-6 col-md-offset-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <strong>Cập nhật thông tin quảng cáo</strong>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-12">
+                        @using (Html.BeginForm("Edit", "Advertisement", FormMethod.Post))
+                        {
+                            <div class="form-horizontal">
+                                @Html.AntiForgeryToken()
+                                <div class="form-group">
+                                    <div class="col-md-8 col-md-offset-1">
+                                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.url_image, new { @class = "control-label col-md-4" })
+                                    <div class="col-md-8">
+                                        @Html.TextBoxFor(model => model.url_image, new { @class = "form-control", @id = "txtImage" })
+                                        <a id="btnSelectImage" href="#">Chọn ảnh</a>
+                                        @Html.ValidationMessageFor(model => model.url_image, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.url_source, new { @class = "control-label col-md-4" })
+                                    <div class="col-md-8">
+                                        @Html.TextBoxFor(model => model.url_source, new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.url_source, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.display_order, new { @class = "control-label col-md-4" })
+                                    <div class="col-md-8">
+                                        @Html.TextBoxFor(model => model.display_order, new { @class = "form-control",@type="number" })
+                                        @Html.ValidationMessageFor(model => model.display_order, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.advertisement_position_id, new { @class = "control-label col-md-4" })
+                                    <div class="col-md-8">
+                                        @Html.DropDownListFor(model => model.advertisement_position_id,(SelectList)ViewData["AdsPosition"] , new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.advertisement_position_id, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.description_ad, new { @class = "control-label col-md-4" })
+                                    <div class="col-md-8">
+                                        @Html.TextAreaFor(model => model.description_ad, new { @class = "form-control"})
+                                        @Html.ValidationMessageFor(model => model.description_ad, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.is_active, new { @class = "control-label col-md-4" })
+                                    <div class="col-md-2">
+                                        @Html.CheckBoxFor(model => model.is_active, new { @class = "form-control" })
+                                        @Html.ValidationMessageFor(model => model.is_active, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-offset-4 col-md-12">
+                                        <input type="submit" value="Cập nhật" class="btn btn-lg btn-primary" />
+                                        <a href="/Admin/Advertisement"><i class="fa fa-arrow-left" aria-hidden="true"></i> Trở về</a>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

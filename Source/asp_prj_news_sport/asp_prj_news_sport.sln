@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asp_prj_news_sport", "asp_prj_news_sport\asp_prj_news_sport.csproj", "{4DC8A986-89AE-4384-94B4-04D1BA3FE1D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{5DB7AE41-F0FD-4CAB-843B-A5156D29D692}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{62EC0102-06E4-455F-B565-3279FF4A7850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticResources", "StaticResources\StaticResources.csproj", "{E8D13DB6-B02E-4C7F-AA37-EC0E7014E699}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DC8A986-89AE-4384-94B4-04D1BA3FE1D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC8A986-89AE-4384-94B4-04D1BA3FE1D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC8A986-89AE-4384-94B4-04D1BA3FE1D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC8A986-89AE-4384-94B4-04D1BA3FE1D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB7AE41-F0FD-4CAB-843B-A5156D29D692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB7AE41-F0FD-4CAB-843B-A5156D29D692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB7AE41-F0FD-4CAB-843B-A5156D29D692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB7AE41-F0FD-4CAB-843B-A5156D29D692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62EC0102-06E4-455F-B565-3279FF4A7850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62EC0102-06E4-455F-B565-3279FF4A7850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62EC0102-06E4-455F-B565-3279FF4A7850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62EC0102-06E4-455F-B565-3279FF4A7850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8D13DB6-B02E-4C7F-AA37-EC0E7014E699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8D13DB6-B02E-4C7F-AA37-EC0E7014E699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8D13DB6-B02E-4C7F-AA37-EC0E7014E699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8D13DB6-B02E-4C7F-AA37-EC0E7014E699}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5DB7AE41-F0FD-4CAB-843B-A5156D29D692}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Model</RootNamespace>
+    <AssemblyName>Model</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dao\ads_dao.cs" />
+    <Compile Include="Dao\ads_position_dao.cs" />
+    <Compile Include="Dao\content_category_dao.cs" />
+    <Compile Include="Dao\content_dao.cs" />
+    <Compile Include="Dao\content_tag_dao.cs" />
+    <Compile Include="Dao\general_rule_dao.cs" />
+    <Compile Include="Dao\season_round_dao.cs" />
+    <Compile Include="Dao\season_club_dao.cs" />
+    <Compile Include="Dao\rank_dao.cs" />
+    <Compile Include="Dao\footballer_type_dao.cs" />
+    <Compile Include="Dao\info_dao.cs" />
+    <Compile Include="Dao\goal_type_dao.cs" />
+    <Compile Include="Dao\match_goal_dao.cs" />
+    <Compile Include="Dao\menu_dao.cs" />
+    <Compile Include="Dao\match_dao.cs" />
+    <Compile Include="Dao\footballer_dao.cs" />
+    <Compile Include="Dao\round_dao.cs" />
+    <Compile Include="Dao\football_club_dao.cs" />
+    <Compile Include="Dao\season_dao.cs" />
+    <Compile Include="Dao\tournament_dao.cs" />
+    <Compile Include="Dao\menu_type_dao.cs" />
+    <Compile Include="Dao\tag_dao.cs" />
+    <Compile Include="Dao\user_credential_dao.cs" />
+    <Compile Include="Dao\user_group_dao.cs" />
+    <Compile Include="Dao\user_log_dao.cs" />
+    <Compile Include="Dao\user_role_dao.cs" />
+    <Compile Include="EF\advertisement.cs" />
+    <Compile Include="EF\advertisement_position.cs" />
+    <Compile Include="EF\content.cs" />
+    <Compile Include="EF\content_category.cs" />
+    <Compile Include="EF\content_tag.cs" />
+    <Compile Include="EF\footballer.cs" />
+    <Compile Include="EF\footballer_type.cs" />
+    <Compile Include="EF\football_club.cs" />
+    <Compile Include="EF\general_rule.cs" />
+    <Compile Include="EF\goal_type.cs" />
+    <Compile Include="EF\info.cs" />
+    <Compile Include="EF\match.cs" />
+    <Compile Include="EF\match_goal.cs" />
+    <Compile Include="EF\menu.cs" />
+    <Compile Include="EF\menu_type.cs" />
+    <Compile Include="EF\news_sportDbContext.cs" />
+    <Compile Include="EF\rank.cs" />
+    <Compile Include="EF\round.cs" />
+    <Compile Include="EF\season.cs" />
+    <Compile Include="EF\season_club.cs" />
+    <Compile Include="EF\season_round.cs" />
+    <Compile Include="EF\sysdiagram.cs" />
+    <Compile Include="EF\system_config.cs" />
+    <Compile Include="EF\tag.cs" />
+    <Compile Include="EF\tournament.cs" />
+    <Compile Include="EF\user_credential.cs" />
+    <Compile Include="EF\user_group.cs" />
+    <Compile Include="EF\user_log.cs" />
+    <Compile Include="EF\user_role.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\content_category_view.cs" />
+    <Compile Include="ViewModel\content_tag_view.cs" />
+    <Compile Include="ViewModel\content_view.cs" />
+    <Compile Include="ViewModel\user_credential_view.cs" />
+    <Compile Include="ViewModel\user_group_view.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{62ec0102-06e4-455f-b565-3279ff4a7850}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\PagedList.css" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

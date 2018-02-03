@@ -1,0 +1,53 @@
+﻿@model PagedList.IPagedList<Model.EF.content>
+@using CommonPublic
+@{
+    ViewBag.Title = "Tìm kiếm tin tức V-League";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!--breadcrumb -->
+<div class="container">
+    <ol class="breadcrumb">
+        <li>Thẻ Tag: </li>
+        <li>@ViewBag.SearchTag</li>
+    </ol>
+</div>
+<!--//breadcrumb -->
+<!--New Post-->
+<div class="featured-news">
+    <div class="container">
+        <div class="ftrd-head text-center">
+            <h3>TIN TỨC V-LEAGUE</h3>
+        </div>
+        <div class="event-grids">
+            <div class="row">
+                @if (Model != null)
+                {
+                    foreach (var item in Model)
+                    {
+                        var url = "/" + @item.meta_title + "-" + @item.id;
+                        <div class="event-grid-sec">
+                            <div class="event-time text-center">
+                                <p>@item.created_at.Value.ToString("yyyy-MM-dd")</p>
+                            </div>
+                            <div class="event-grid_pic">
+                                <a href="@url" class="click-content" data-id="@item.id"><img src="@item.url_image" class="img-responsive" alt="@item.name" /></a>
+                                <h3><a href="@url" class="click-content" data-id="@item.id">@item.name</a></h3>
+                                <p>@StringHelper.SubDescriptionPost(item.description_content)</p>
+                            </div>
+                        </div>
+                    }
+                    <div class="clearfix"></div>
+                    @RenderPage("Paging.cshtml")
+                }
+                else
+                {
+                    <div class="alert alert-danger">
+                        <p>Hiện đang cập nhật nội dung</p>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+<!-- //New Post-->

@@ -1,0 +1,52 @@
+﻿@model List<Model.EF.menu>
+
+<!-- logo and manu top-->
+<div class="header">
+    <div class="container">
+        <div class="logo">
+            <h1><a href="/">V-LEAGUE</a></h1>
+        </div>
+        <div class="top-menu">
+            <span class="menu"></span>
+            <ul>
+                @foreach (var item in Model)
+                {
+                   <li><a href="@item.url" title="@item.name" target="@item.target">@item.name</a></li>
+                }
+            </ul>
+        </div>
+        <!-- script-for-menu -->
+        <script>
+				$("span.menu").click(function(){
+					$(".top-menu ul").slideToggle("slow" , function(){
+					});
+				});
+        </script>
+        <!-- script-for-menu -->
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!-- //logo and manu top-->
+
+<!--search box-->
+<div class="strip">
+    <div class="container">
+        <div class="search">
+            @using (Html.BeginForm("SearchContent", "Content", FormMethod.Get))
+            {
+                <input type="text" value="" name="query" placeholder="Search...">
+                <input type="submit" value="">
+            }
+        </div>
+        <div class="social">
+            <a href="#"><i class="facebook"></i></a>
+            <a href="#"><i class="twitter"></i></a>
+            <a href="#"><i class="dribble"></i></a>
+            <a href="#"><i class="google"></i></a>
+            <a href="#"><i class="youtube"></i></a>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!-- //search box-->

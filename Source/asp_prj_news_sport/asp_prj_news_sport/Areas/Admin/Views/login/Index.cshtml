@@ -1,0 +1,45 @@
+﻿@model asp_prj_news_sport.Areas.Admin.Models.LoginModel
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Đăng nhập - TorWD</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Colored Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- bootstrap-css -->
+    <link rel="stylesheet" href="~/assets/admin/css/bootstrap.css">
+    <!-- //bootstrap-css -->
+    <!-- Custom CSS -->
+    <link href="~/assets/admin/css/style.css" rel='stylesheet' type='text/css' />
+    <!-- font CSS -->
+    <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <!-- font-awesome icons -->
+    <link rel="stylesheet" href="~/assets/admin/css/font.css" type="text/css" />
+    <link href="~/assets/admin/css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome icons -->
+</head>
+<body class="signup-body">
+    <div class="agile-signup">
+        <div class="content2">
+            <div class="grids-heading gallery-heading signup-heading">
+                <h2>VLEAGUE.VN</h2>
+            </div>
+            @using (Html.BeginForm("Login", "Login", FormMethod.Post))
+            {
+                <div class="login-text">
+                    @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+                    @Html.TextBoxFor(model => model.username, new { @autofocus = "autofocus", @placeholder = "Username" })
+                    @Html.PasswordFor(model => model.password, new { @placeholder = "Password" })
+                </div>
+                <div class="forgot-password text-link1">
+                    <a href="/Admin/Login/ResetPassword">Quên mật khẩu?</a>
+                </div>
+                <button type="submit" class="register"><i class="fa fa-sign-in" aria-hidden="true"></i> Đăng nhập</button>
+            }
+        </div>
+    </div>
+   
+</body>
+</html>

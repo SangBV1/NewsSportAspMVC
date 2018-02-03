@@ -1,0 +1,105 @@
+﻿@model Model.EF.general_rule
+@{
+    ViewBag.Title = "Điều lệ mùa giải V League";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@section jsFooter{
+    <script>
+        $('#btnSelectImage').on('click', function (e) {
+            e.preventDefault();
+            var finder = new CKFinder();
+            finder.selectActionFunction = function (url) {
+                $('#txtImage').val(url);
+            };
+            finder.popup();
+        })
+    </script>
+}
+<div class="row">
+    <div class="col-lg-5 col-md-offset-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <strong>Thông tin điều lệ</strong>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-lg-12">
+                        @using (Html.BeginForm("Edit", "Rule", FormMethod.Post))
+                        {
+                            <div class="form-horizontal">
+                                @Html.AntiForgeryToken()
+                                <div class="form-group">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                    </div>
+                                </div>
+                                @Html.HiddenFor(model => model.id)
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.max_age, new { @class = "control-label col-md-6" })
+                                    <div class="col-md-6">
+                                        @Html.TextBoxFor(model => model.max_age, new { @class = "control-label col-md-offset-4 col-md-4" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.min_age, new { @class = "control-label col-md-6" })
+                                    <div class="col-md-6">
+                                        @Html.TextBoxFor(model => model.min_age, new { @class = "control-label col-md-offset-4 col-md-4" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.max_footballer, new { @class = "control-label col-md-6" })
+                                    <div class="col-md-6">
+                                        @Html.TextBoxFor(model => model.max_footballer, new { @class = "control-label col-md-offset-4 col-md-4" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.max_foreign_footballer, new { @class = "control-label col-md-6" })
+                                    <div class="col-md-6">
+                                        @Html.TextBoxFor(model => model.max_foreign_footballer, new { @class = "control-label col-md-offset-4 col-md-4" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.min_footballer, new { @class = "control-label col-md-6" })
+                                    <div class="col-md-6">
+                                        @Html.TextBoxFor(model => model.min_footballer, new { @class = "control-label col-md-offset-4 col-md-4" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.win_score, new { @class = "control-label col-md-6" })
+                                    <div class="col-md-6">
+                                        @Html.TextBoxFor(model => model.win_score, new { @class = "control-label col-md-offset-4 col-md-4" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.draw_score, new { @class = "control-label col-md-6" })
+                                    <div class="col-md-6">
+                                        @Html.TextBoxFor(model => model.draw_score, new { @class = "control-label col-md-offset-4 col-md-4" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.lose_score, new { @class = "control-label col-md-6" })
+                                    <div class="col-md-6">
+                                        @Html.TextBoxFor(model => model.lose_score, new { @class = "control-label col-md-offset-4 col-md-4" })
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    @Html.LabelFor(model => model.max_time_goal, new { @class = "control-label col-md-6" })
+                                    <div class="col-md-6">
+                                        @Html.TextBoxFor(model => model.max_time_goal, new { @class = "control-label col-md-offset-4 col-md-4" })
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-md-offset-4 col-md-12">
+                                        <input type="submit" value="Cập nhật" class="btn btn-lg btn-primary" />
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

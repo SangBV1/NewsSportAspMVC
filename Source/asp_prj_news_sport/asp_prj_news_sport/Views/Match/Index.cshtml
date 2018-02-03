@@ -1,0 +1,130 @@
+﻿@using Model.Dao;
+@{
+    ViewBag.Title = "Lịch thi đấu V-League";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var ListMatch = (PagedList.IPagedList<Model.EF.match>)ViewBag.Match;
+    var RankSeason = (List<Model.EF.rank>)ViewBag.RankSeason;
+    var num_order = 1;
+    var match_dao = new match_dao();
+    var rule = new general_rule_dao().GetRule();
+}
+
+<!--breadcrumb -->
+<div class="container">
+    <ol class="breadcrumb">
+        <li><a href="/">Home</a></li>
+        <li class="active"><a href="/lich-thi-dau-vleague">Lịch thi đấu V-League</a></li>
+    </ol>
+</div>
+<!--//breadcrumb -->
+
+<!-- Lịch thi đấu-->
+<div class="events-sec">
+    <div class="container">
+        <div class="form-group mar-top1">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-md-6">
+                        <h2>Lịch thi đấu V-League</h2>
+                    </div>
+                    @using (Html.BeginForm("Index", "Match", FormMethod.Post))
+                    {
+                        <div class="col-md-3">
+                            @Html.DropDownList("season_id", (SelectList)ViewData["Season"],
+                            new { @class = "form-control", onchange = "this.form.submit();" })
+                        </div>
+                        <div class="col-md-3">
+                            @Html.DropDownList("round_id", (SelectList)ViewData["Round"],
+                        new { @class = "form-control", onchange = "this.form.submit();" })
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="event-grids">
+            @if (ListMatch.Count < 1)
+            {
+                <div class="alert alert-danger">
+                    <h4>Hiện đang cập nhật trận đấu...</h4>
+                </div> 
+            }
+            else
+            {
+            <table id="table" class="">
+                <thead>
+                    <tr>
+                        <th colspan="3"></th>
+                        <th>VS</th>
+                        <th colspan="3"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in ListMatch)
+                    {
+                        <tr>
+                            <td>@item.date_at.Value.ToString("dd/MM/yyyy")</td>
+                            <td>@item.football_club1.name</td>
+                            <td><img src="@item.football_club1.url_logo" width="50" height="50"></td>
+                            <td>@(item.score != "0" ? item.score.Replace(",", " - ") : item.time_at.Value.ToString(@"hh\:mm"))</td>
+                            <td><img src="@item.football_club.url_logo" width="50" height="50"></td>
+                            <td>@item.football_club.name</td>
+                            <td>
+                                <a href="/thong-tin-tran-dau/@CommonPublic.StringHelper.ToUnsignString(item.football_club1.name)-vs-@CommonPublic.StringHelper.ToUnsignString(item.football_club.name)-@item.id">
+                                    Chi tiết
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table> 
+            }
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<!-- //Lịch thi đấu-->
+
+<!-- bảng xếp hạng-->
+<div class="events-sec">
+    <div class="container">
+        <h2>Bảng xếp hảng</h2>
+        <div class="event-grids">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>TT</th>
+                        <th>Logo</th>
+                        <th>Đội Bóng</th>
+                        <th>Số Trận</th>
+                        <th>Thắng</th>
+                        <th>Hòa</th>
+                        <th>Thua</th>
+                        <th>Hiệu Số</th>
+                        <th>Điểm</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in RankSeason)
+                    {
+                        <tr id="row_@item.id">
+                            <td>@num_order</td>
+                            <td><img src="@item.football_club.url_logo" width="50" height="50" /></td>
+                            <td>@item.football_club.name</td>
+                            <td>@match_dao.Count_Match(item.footballClub_id,item.season_id)</td>
+                            <td>@item.win_match</td>
+                            <td>@item.draw_match</td>
+                            <td>@item.lose_match</td>
+                            <td>@(item.win_score - item.lose_score)</td>
+                            <td>@((item.win_match * rule.win_score) + (item.draw_match * rule.draw_score) + (item.lose_match * rule.lose_score))</td>
+                        </tr>
+                        ++num_order;
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<!-- //bảng xếp hạng-->

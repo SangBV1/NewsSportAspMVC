@@ -1,0 +1,58 @@
+﻿@model List<Model.EF.content>
+@using CommonPublic
+@{
+    ViewBag.Title = "Trang tin tức V-League";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section banner{
+    @RenderPage("banner.cshtml")
+}
+
+<!--Menu other - Type Box-->
+<div class="banner-bottom-grids">
+    <div class="container">
+        <div class="col-md-6 banner-text-info clr1">
+            <i class="icon1"></i>
+            <div class="bnr-text">
+                <h3><a href="/lich-thi-dau-vleague/" title="LỊCH THI ĐẤU V-LEAGUE">LỊCH THI ĐẤU V-LEAGUE</a></h3>
+                <p>Lịch thi đấu V-League 2017 - Cập nhật liên tục lịch thi đấu, kết quả các trận bóng đá Việt Nam</p>
+            </div>
+        </div>
+        <div class="col-md-6 banner-text-info clr2">
+            <i class="icon2"></i>
+            <div class="bnr-text">
+                <h3><a href="/news/v-league" title="TIN TỨC V-LEAGUE">TIN TỨC V-LEAGUE</a></h3>
+                <p>Tổng hợp và cập nhật các tin tức, sự kiện, bảng xếp hạng, lịch thi đấu giải bóng đá V-League</p>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>
+<!-- //Menu other - Type Box-->
+
+<!--New Post-->
+<div class="featured-news">
+    <div class="container">
+        <div class="ftrd-head text-center">
+            <h3>TIN TỨC MỚI V-LEAGUE</h3>
+        </div>
+        <div class="event-grids">
+            @foreach (var item in Model)
+            {
+                var url = "/" +  @item.meta_title + "-" + @item.id;
+            <div class="col-md-4 event-grid-sec">
+                <div class="event-time text-center">
+                    <p>@item.created_at.Value.ToString("yyyy-MM-dd")</p>
+                </div>
+                <div class="event-grid_pic">
+                    <a href="@url" class="click-content" data-id="@item.id"><img src="@item.url_image" alt="@item.name" /></a>
+                    <h3><a href="@url" class="click-content" data-id="@item.id">@item.name</a></h3>
+                    <p>@StringHelper.SubDescriptionPost(item.description_content)</p>
+                </div>
+            </div>
+            }
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!-- //New Post-->

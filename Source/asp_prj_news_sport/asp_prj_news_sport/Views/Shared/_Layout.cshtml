@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <base target="_self">
+    <!--fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+    <link href="~/assets/client/components/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <!--//fonts-->
+    <link href="~/assets/client/components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/assets/client/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="~/assets/admin/css/table-style.css" rel="stylesheet" />
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="@ViewBag.Keywords" />
+    <meta name="description" content="@ViewBag.Description" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- //for-mobile-apps -->
+    <!-- js -->
+    <script src="~/assets/client/js/jquery.min.js"></script>
+    <!-- js -->
+</head>
+<body>
+    <!-- header -->
+    @{Html.RenderAction("Header", "Home"); }
+    <!-- //header -->
+
+    <!-- banner -->
+    @RenderSection("banner", required: false)
+    <!-- //banner -->
+
+    <!-- content -->
+    @RenderBody()
+    <!--- //content--->
+
+    <!--footer-->
+    @{Html.RenderAction("Footer", "Home"); }
+    <!-- //footer -->
+
+    <!--script-->
+    @RenderSection("jsFooter", required: false)
+    <script src="~/assets/client/js/common.js"></script>
+
+    <!-- /js facebook-->
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.10";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <!-- //js facebook-->
+
+    <!-- //script-->
+</body>
+</html>

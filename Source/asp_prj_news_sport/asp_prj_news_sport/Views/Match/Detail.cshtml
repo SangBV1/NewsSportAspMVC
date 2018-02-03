@@ -1,0 +1,118 @@
+﻿@model Model.EF.match
+@using CommonPublic;
+@{
+    ViewBag.Title = ViewBag.MatchName;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    var ListTopViewPost = (List<Model.EF.content>)ViewBag.TopViewPost;
+    var ListGoal = (List<Model.EF.match_goal>)ViewBag.ListGoal;
+    var Advertisement_300x250 = (Model.EF.advertisement)ViewBag.Advertisement_300x250;
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <!--breadcrumb -->
+            <div>
+                <ol class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/lich-thi-dau-vleague?round_id=@Model.round_id&season_id=@Model.season_id">Lịch thi đấu V-League</a></li>
+                    <li>@ViewBag.MatchName</li>
+                </ol>
+            </div>
+            <!--//breadcrumb -->
+            <!--detail match-->
+            <div class="match-result">
+                <div class="title">
+                    <h3 class="text-center text-middle">
+                        <span class="title-td1">@Model.football_club1.name</span>
+                        <span class="title-td2">VS</span>
+                        <span class="title-td3">@Model.football_club.name</span>
+                    </h3>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="detail text-center">
+                    <div class="detail-td1">
+                        <span class="detail-img"><img src="@Model.football_club1.url_logo" alt="@Model.football_club1.name"></span>
+                        <span class="detail-score">@Model.score.Substring(0,1)</span>
+                    </div>
+                    <div class="detail-td2">
+                        <p>Thời gian: @Model.time_at.Value.ToString(@"hh\:mm") @Model.date_at.Value.ToString("dd/MM/yyyy")</p>
+                        <p>Giải đấu: V-League</p>
+                        <p>Sân Vận Động: @Model.pitch</p>
+                    </div>
+                    <div class="detail-td3">
+                        <span class="detail-score">@Model.score.Substring(Model.score.Length - 1, 1)</span>
+                        <span class="detail-img"><img src="@Model.football_club.url_logo" alt="@Model.football_club.name"></span>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="score text-left">
+                    @foreach (var item in ListGoal)
+                    {
+                        if (item.footballer.footballClub_id == item.match.home_club)
+                        {
+                            <div class="row-score">
+                                <div class="score-td1">
+                                    <span class="goal">
+                                        <img src="../Data/images/content/icon/ball.png" alt="@item.match.football_club1.name"> @item.time_at
+                                    </span>
+                                    <span class="name-player">@Html.Raw(item.goal_type_id == "own" ? "<span style='color:#f44242'>"+item.footballer.name+"</span>" : item.footballer.name )</span>
+                                </div>
+                                <div class="score-td2"></div>
+                                <div class="clearfix"></div>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="row-score">
+                                <div class="score-td1"></div>
+                                <div class="score-td2">
+                                    <span class="goal">
+                                        <img src="../Data/images/content/icon/ball.png" alt="@item.match.football_club1.name"> @item.time_at
+                                    </span>
+                                    <span class="name-player">@Html.Raw(item.goal_type_id == "own" ? "<span style='color:#f44242'>" + item.footballer.name + "</span>" : item.footballer.name)</span>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+            <!--//detail match-->
+        </div>
+
+        <div class="col-md-4">
+            <div class="ad-center">
+                <a href="@Advertisement_300x250.url_source" class="click-ad" data-id="@Advertisement_300x250.id"><img src="@Advertisement_300x250.url_image" class="img-responsive" alt="@Advertisement_300x250.description_ad"></a>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<!--New Post-->
+<div class="featured-news">
+    <div class="container">
+        <div class="ftrd-head text-center">
+            <h3>TÂM ĐIỂM</h3>
+        </div>
+        <div class="event-grids">
+            @foreach (var item in ListTopViewPost)
+            {
+                var url = "/" + @item.meta_title + "-" + @item.id;
+                <div class="col-md-4 event-grid-sec">
+                    <div class="event-time text-center">
+                        <p>@item.created_at.Value.ToString("yyyy-MM-dd")</p>
+                    </div>
+                    <div class="event-grid_pic">
+                        <a href="@url"><img src="@item.url_image" alt="@item.name" /></a>
+                        <h3><a href="@url">@item.name</a></h3>
+                        <p>@StringHelper.SubDescriptionPost(item.description_content)</p>
+                    </div>
+                </div>
+            }
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!-- //New Post-->

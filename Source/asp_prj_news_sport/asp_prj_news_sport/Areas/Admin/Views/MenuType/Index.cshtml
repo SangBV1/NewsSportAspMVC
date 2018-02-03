@@ -1,0 +1,57 @@
+﻿@model PagedList.IPagedList<Model.EF.menu_type>
+@using PagedList.Mvc;
+@using CommonPublic;
+@{
+    ViewBag.Title = "Loại Menu trong Website";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@section jsFooter{
+    <script src="/assets/admin/js/controller/MenuTypeController.js"></script>
+}
+<div class="agile-tables">
+    <div class="w3l-table-info">
+        <h3>Loại Menu</h3>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-lg-12">
+                    <a class="btn btn-primary delete_all" href="#"><i class='fa fa-trash' aria-hidden='true'></i></a>
+                    <a class="btn btn-primary" href="/Admin/MenuType/Create">Thêm mới</a>
+                </div>
+            </div>
+        </div>
+
+        <table id="table" class="">
+            <thead>
+                <tr>
+                    <th><input type="checkbox" id="chk_all"> All</th>
+                    <th>ID</th>
+                    <th>Tên</th>
+                    <th>Ưu tiên</th>
+                    <th>#</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr id="row_@item.id">
+                        <td><input type="checkbox" class="sub_chk" data-id="@item.id"></td>
+                        <td>@item.id</td>
+                        <td>@item.name</td>
+                        <td>@item.display_order</td>
+                        <td>
+                            <a href="/Admin/MenuType/Edit/@item.id"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                            |
+                            <a href="#" class="remove_row" data-id="@item.id"><i class='fa fa-trash' aria-hidden='true'></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+    </div>
+</div>
+
+
+
+
+

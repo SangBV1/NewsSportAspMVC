@@ -1,0 +1,64 @@
+C:\Users\SUONG\Desktop\OnlineShop\StaticResources\bin\Release\StaticResources.dll
+C:\Users\SUONG\Desktop\OnlineShop\StaticResources\bin\Release\StaticResources.pdb
+C:\Users\SUONG\Desktop\OnlineShop\StaticResources\bin\Release\en\StaticResources.resources.dll
+C:\Users\SUONG\Desktop\OnlineShop\StaticResources\obj\Release\StaticResources.Resources.resources
+C:\Users\SUONG\Desktop\OnlineShop\StaticResources\obj\Release\StaticResources.Resources.en.resources
+C:\Users\SUONG\Desktop\OnlineShop\StaticResources\obj\Release\StaticResources.csproj.GenerateResource.Cache
+C:\Users\SUONG\Desktop\OnlineShop\StaticResources\obj\Release\en\StaticResources.resources.dll
+C:\Users\SUONG\Desktop\OnlineShop\StaticResources\obj\Release\StaticResources.dll
+C:\Users\SUONG\Desktop\OnlineShop\StaticResources\obj\Release\StaticResources.pdb
+C:\Users\SUONG\Desktop\OnlineShop\StaticResources\obj\Release\StaticResources.csprojResolveAssemblyReference.cache
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\bin\Release\StaticResources.dll
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\bin\Release\StaticResources.pdb
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\bin\Release\en\StaticResources.resources.dll
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\obj\Release\StaticResources.csprojResolveAssemblyReference.cache
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\obj\Release\StaticResources.Resources.resources
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\obj\Release\StaticResources.WebResources.resources
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\obj\Release\StaticResources.Resources.en.resources
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\obj\Release\StaticResources.csproj.GenerateResource.Cache
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\obj\Release\en\StaticResources.resources.dll
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\obj\Release\StaticResources.dll
+C:\Users\SUONG\Desktop\tmp\prj_torwd\StaticResources\obj\Release\StaticResources.pdb
+E:\tmp\project\asp_prj_news_sport\StaticResources\bin\Release\StaticResources.dll
+E:\tmp\project\asp_prj_news_sport\StaticResources\bin\Release\StaticResources.pdb
+E:\tmp\project\asp_prj_news_sport\StaticResources\bin\Release\en\StaticResources.resources.dll
+E:\tmp\project\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.Resources.resources
+E:\tmp\project\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.WebResources.resources
+E:\tmp\project\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.Resources.en.resources
+E:\tmp\project\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.csproj.GenerateResource.Cache
+E:\tmp\project\asp_prj_news_sport\StaticResources\obj\Release\en\StaticResources.resources.dll
+E:\tmp\project\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.dll
+E:\tmp\project\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.pdb
+E:\tmp\project\asp_prj_news_sport\StaticResources\bin\Release\StaticResources.dll.CodeAnalysisLog.xml
+E:\tmp\project\asp_prj_news_sport\StaticResources\bin\Release\StaticResources.dll.lastcodeanalysissucceeded
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\bin\Release\StaticResources.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\bin\Release\StaticResources.pdb
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\bin\Release\en\StaticResources.resources.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.Resources.resources
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.WebResources.resources
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.Resources.en.resources
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.csproj.GenerateResource.Cache
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\en\StaticResources.resources.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.dll
+C:\Users\sangbui\Desktop\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.pdb
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\bin\Release\StaticResources.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\bin\Release\StaticResources.pdb
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\bin\Release\en\StaticResources.resources.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.Resources.resources
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.WebResources.resources
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.Resources.en.resources
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.csproj.GenerateResource.Cache
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\en\StaticResources.resources.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.dll
+E:\tmp\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.pdb
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\bin\Release\StaticResources.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\bin\Release\StaticResources.pdb
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\bin\Release\en\StaticResources.resources.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.Resources.resources
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.WebResources.resources
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.Resources.en.resources
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.csproj.GenerateResource.Cache
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.csproj.CoreCompileInputs.cache
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\en\StaticResources.resources.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.dll
+D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.pdb

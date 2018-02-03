@@ -1,0 +1,99 @@
+﻿@model PagedList.IPagedList<Model.EF.footballer>
+@using PagedList.Mvc;
+@using CommonPublic;
+@using Model.Dao;
+@{
+    ViewBag.Title = "Cầu thủ tham gia thi đấu";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+
+    var match_goal_dao = new match_goal_dao();
+}
+@section jsFooter{
+    <script src="/assets/admin/js/controller/FootballerController.js"></script>
+}
+<div class="agile-tables">
+    <div class="w3l-table-info">
+        @if (ViewBag.FootballClub_Name != null)
+        {
+            <h3>Danh sách cầu thủ @ViewBag.FootballClub_Name</h3>
+        }
+        else
+        {
+            <h3>Danh sách cầu thủ</h3>
+        }
+        <div class="form-group">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-md-3">
+                        <a class="btn btn-primary delete_all" href="#"><i class='fa fa-trash' aria-hidden='true'></i></a>
+                        <a class="btn btn-primary" href="/Admin/Footballer/Create?club_id=@(Model.Count > 0 ? Model.First().footballClub_id : ViewBag.FootballClub_ID)">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
+                            Thêm mới
+                        </a>
+                    </div>
+                    
+                    @using (Html.BeginForm("Search", "Footballer", FormMethod.Get))
+                    {
+                        <div class="col-md-3 search-box">
+                            <input type="text" name="query" value="" placeholder="lộc, trường..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" required="">
+                            <button type="submit" class="btn btn-primary" value=""><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </div>
+                    }
+                    
+                    @using (Html.BeginForm("Index", "Footballer", FormMethod.Post))
+                    {
+                        <div class="col-md-3">
+                            @Html.DropDownList("season_id", (SelectList)ViewData["Season"], new { @class = "form-control" })
+                        </div>
+                        <div class="col-md-3">
+                            <input type="submit" class="btn btn-primary"  title="Danh sách cầu thủ ghi bàn trong mùa giải" value="Cầu thủ ghi bàn"/>
+                            <a class="btn btn-primary" href="/Admin/Footballer"><i class='fa fa-refresh' aria-hidden='true'></i></a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <table id="table" class="">
+            <thead>
+                <tr>
+                    <th><input type="checkbox" id="chk_all"> All</th>
+                    <th>Tên</th>
+                    <th>Ngày sinh</th>
+                    <th>Quê quán</th>
+                    <th>Vị trí</th>
+                    <th>Loại</th>
+                    <th>Bàn thắng</th>
+                    <th>CLB</th>
+                    <th>#</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr id="row_@item.id">
+                        <td><input type="checkbox" class="sub_chk" data-id="@item.id"></td>
+                        <td>@item.name</td>
+                        <td>@(item.birth_date != null ? item.birth_date.Value.ToString("dd/MM/yyyy") : "")</td>
+                        <td>@item.hometown</td>
+                        <td>@item.position</td>
+                        <td>@item.footballer_type.name</td>
+                        <td>@(match_goal_dao.CountAllGoal_BySeasonID(ViewBag.CurrentSeason,item.id))</td>
+                        <td>@item.football_club.name</td>
+                        <td>
+                            <a href="/Admin/Footballer/Edit/@item.id" title="Sửa thông tin"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                            |
+                            <a href="#" class="remove_row" data-id="@item.id" title="Xóa dữ liệu"><i class='fa fa-trash' aria-hidden='true'></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { club_id = Request.QueryString["club_id"] , page}))
+    </div>
+</div>
+
+
+
+
+

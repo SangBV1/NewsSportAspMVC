@@ -1,0 +1,20 @@
+﻿@model List<Model.EF.menu>
+@{ 
+    var AboutWeb = (Model.EF.info)ViewBag.AboutWeb;
+}
+<div class="footer">
+    <div class="container">
+        <div class="copywrite">
+            <p>@Html.Raw(AboutWeb.detail)</p>
+        </div>
+        <div class="footer-menu">
+            <ul>
+                @foreach (var item in Model)
+                {
+                    <li><a href="@item.url" title="@item.name" target="@item.target">@item.name</a></li>
+                }
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+</div>

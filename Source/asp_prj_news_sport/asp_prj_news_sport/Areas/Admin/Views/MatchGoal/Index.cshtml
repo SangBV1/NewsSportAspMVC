@@ -1,0 +1,77 @@
+﻿@model PagedList.IPagedList<Model.EF.match_goal>
+@using PagedList.Mvc;
+@using CommonPublic;
+@using Model.Dao;
+@{
+    ViewBag.Title = "Danh sách bàn thắng V League";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+
+    var match_goal_dao = new match_goal_dao();
+    var match_dao = new match_dao();
+    var matchID = ViewBag.Match != null ? (int)ViewBag.Match : 0;
+    var nameMatch = matchID != 0 ? match_dao.GetMatchName_ByMatchID(ViewBag.Match) : "trong mùa giải";
+
+}
+@section jsFooter{
+    <script src="/assets/admin/js/controller/MatchGoalController.js"></script>
+}
+<div class="agile-tables">
+    <div class="w3l-table-info">
+        <h3>Danh sách bàn thắng trận đấu @nameMatch
+        </h3>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-md-6">
+                        <a class="btn btn-primary delete_all" href="#" title="Xóa dòng được chọn"><i class='fa fa-trash' aria-hidden='true'></i></a>
+                        <a class="btn btn-primary" href="/Admin/MatchGoal/Create?match_id=@ViewBag.Match" id="btn-addNew" data-match-id="@ViewBag.Match" title="Thêm trận đấu"><i class="fa fa-plus" aria-hidden="true"></i> Thêm bàn thắng</a>
+                    </div>
+                    @using (Html.BeginForm("Index", "MatchGoal", FormMethod.Post))
+                    {
+                        <div class="col-md-3">
+                            @Html.DropDownList("season_id", (SelectList)ViewData["Season"],
+                            new { @class = "form-control", onchange = "this.form.submit();" })
+                        </div>
+                    }
+            </div>
+        </div>
+
+        <table id="table" class="">
+            <thead>
+                <tr>
+                    <th><input type="checkbox" id="chk_all"> All</th>
+                    <th>Cầu thủ</th>
+                    <th>Đội</th>
+                    <th>Loại bàn thắng</th>
+                    <th>Phút</th>
+                    <th>Trận đấu</th>
+                    <th>#</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr id="row_@item.id">
+                        <td><input type="checkbox" class="sub_chk" data-id="@item.id"></td>
+                        <td>@item.footballer.name</td>
+                        <td>@item.footballer.football_club.name</td>
+                        <td>@item.goal_type.name</td>
+                        <td>@item.time_at</td>
+                        <td>@(item.match.football_club1.name + " - " + item.match.football_club.name)</td>
+                        <td>
+                            <a href="/Admin/MatchGoal/Edit/@item.id" title="Sửa thông tin"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                            |
+                            <a href="#" class="remove_row" data-id="@item.id" title="Xóa dữ liệu"><i class='fa fa-trash' aria-hidden='true'></i></a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+    </div>
+</div>
+
+
+
+
+
