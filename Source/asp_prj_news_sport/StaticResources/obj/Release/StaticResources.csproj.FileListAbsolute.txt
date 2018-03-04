@@ -62,3 +62,14 @@ D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResource
 D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\en\StaticResources.resources.dll
 D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.dll
 D:\tmp\LTT\DT ASP\BuiVanSang_PhamDucHoa\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.pdb
+D:\tmp\LTT\HK2\Do An\Git_DoAnASP\Source\asp_prj_news_sport\StaticResources\bin\Release\StaticResources.dll
+D:\tmp\LTT\HK2\Do An\Git_DoAnASP\Source\asp_prj_news_sport\StaticResources\bin\Release\StaticResources.pdb
+D:\tmp\LTT\HK2\Do An\Git_DoAnASP\Source\asp_prj_news_sport\StaticResources\bin\Release\en\StaticResources.resources.dll
+D:\tmp\LTT\HK2\Do An\Git_DoAnASP\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.Resources.resources
+D:\tmp\LTT\HK2\Do An\Git_DoAnASP\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.WebResources.resources
+D:\tmp\LTT\HK2\Do An\Git_DoAnASP\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.Resources.en.resources
+D:\tmp\LTT\HK2\Do An\Git_DoAnASP\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.csproj.GenerateResource.Cache
+D:\tmp\LTT\HK2\Do An\Git_DoAnASP\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.csproj.CoreCompileInputs.cache
+D:\tmp\LTT\HK2\Do An\Git_DoAnASP\Source\asp_prj_news_sport\StaticResources\obj\Release\en\StaticResources.resources.dll
+D:\tmp\LTT\HK2\Do An\Git_DoAnASP\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.dll
+D:\tmp\LTT\HK2\Do An\Git_DoAnASP\Source\asp_prj_news_sport\StaticResources\obj\Release\StaticResources.pdb

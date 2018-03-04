@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -209,15 +210,6 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
-    <Compile Include="Areas\Admin\Controllers\MatchGoalController.cs" />
-    <Compile Include="Areas\Admin\Controllers\GoalTypeController.cs" />
-    <Compile Include="Areas\Admin\Controllers\RuleController.cs" />
-    <Compile Include="Areas\Admin\Controllers\RankController.cs" />
-    <Compile Include="Areas\Admin\Controllers\SeasonRoundController.cs" />
-    <Compile Include="Areas\Admin\Controllers\MatchController.cs" />
-    <Compile Include="Areas\Admin\Controllers\SeasonController.cs" />
-    <Compile Include="Areas\Admin\Controllers\FootballerController.cs" />
-    <Compile Include="Areas\Admin\Controllers\FootballClubController.cs" />
     <Compile Include="Areas\Admin\Controllers\AdsPositionController.cs" />
     <Compile Include="Areas\Admin\Controllers\AdvertisementController.cs" />
     <Compile Include="Areas\Admin\Controllers\BaseController.cs" />
@@ -229,7 +221,6 @@
     <Compile Include="Areas\Admin\Controllers\MenuController.cs" />
     <Compile Include="Areas\Admin\Controllers\MenuTypeController.cs" />
     <Compile Include="Areas\Admin\Controllers\TagController.cs" />
-    <Compile Include="Areas\Admin\Controllers\SeasonClubController.cs" />
     <Compile Include="Areas\Admin\Controllers\UserCredentialController.cs" />
     <Compile Include="Areas\Admin\Controllers\UserGroupController.cs" />
     <Compile Include="Areas\Admin\Controllers\UserLogController.cs" />
@@ -240,7 +231,6 @@
     <Compile Include="Common\UserLogin.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\ContentController.cs" />
-    <Compile Include="Controllers\MatchController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -1520,7 +1510,6 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Areas\Admin\Views\web.config" />
     <Content Include="assets\admin\components\bootstrap\.bower.json" />
     <Content Include="assets\admin\components\bootstrap\bower.json" />
     <Content Include="assets\admin\components\bootstrap\dist\css\bootstrap-theme.css.map" />
@@ -1681,61 +1670,6 @@
     <Content Include="assets\admin\js\plugins\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="assets\admin\js\plugins\ckfinder\skins\bootstrap\assets\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="assets\admin\js\plugins\ckfinder\userfiles\.htaccess" />
-    <Content Include="Areas\Admin\Views\AdsPosition\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\AdsPosition\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\AdsPosition\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\Advertisement\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\Advertisement\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\Advertisement\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\Content\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\Content\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\Content\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\ContentCate\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\ContentCate\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\ContentCate\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\Home\Social.cshtml" />
-    <Content Include="Areas\Admin\Views\Home\Statistical.cshtml" />
-    <Content Include="Areas\Admin\Views\Info\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\Info\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\Info\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\login\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\Menu\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\Menu\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\Menu\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\MenuType\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\MenuType\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\MenuType\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\Shared\nav_menu_left.cshtml" />
-    <Content Include="Areas\Admin\Views\Shared\title_bar.cshtml" />
-    <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
-    <Content Include="Areas\Admin\Views\Tag\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\UserCredential\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\UserGroup\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\UserGroup\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\UserGroup\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\UserLog\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\UserLog\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\UserLog\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\UserRole\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\UserRole\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\UserRole\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\Shared\error401.cshtml" />
-    <Content Include="Areas\Admin\Views\FootballClub\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\FootballClub\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\FootballClub\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\Footballer\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\Footballer\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\Footballer\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\Season\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\Season\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\SeasonClub\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\Match\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\Match\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\SeasonRound\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\Match\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\Rank\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\Rule\Index.cshtml" />
     <Content Include="assets\client\components\bootstrap\.bower.json" />
     <Content Include="assets\client\components\bootstrap\bower.json" />
     <Content Include="assets\client\components\bootstrap\dist\css\bootstrap-theme.css.map" />
@@ -1863,14 +1797,48 @@
     <Content Include="assets\client\components\font-awesome\scss\_spinning.scss" />
     <Content Include="assets\client\components\font-awesome\scss\_stacked.scss" />
     <Content Include="assets\client\components\font-awesome\scss\_variables.scss" />
-    <Content Include="Areas\Admin\Views\MatchGoal\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\MatchGoal\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\MatchGoal\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\GoalType\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\GoalType\Create.cshtml" />
-    <Content Include="Areas\Admin\Views\GoalType\Edit.cshtml" />
-    <Content Include="Areas\Admin\Views\Footballer\Search.cshtml" />
+    <Content Include="Areas\Admin\Views\AdsPosition\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\AdsPosition\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\AdsPosition\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Advertisement\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Advertisement\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Advertisement\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\ContentCate\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\ContentCate\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\ContentCate\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Content\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Content\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Content\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Social.cshtml" />
+    <Content Include="Areas\Admin\Views\Home\Statistical.cshtml" />
+    <Content Include="Areas\Admin\Views\Info\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Info\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Info\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\login\Index.cshtml" />
     <Content Include="Areas\Admin\Views\login\ResetPassword.cshtml" />
+    <Content Include="Areas\Admin\Views\MenuType\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\MenuType\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\MenuType\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Menu\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Menu\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Menu\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\error401.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\nav_menu_left.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\title_bar.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Admin\Views\Tag\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\UserCredential\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\UserGroup\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\UserGroup\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\UserGroup\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\UserLog\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\UserLog\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\UserLog\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\UserRole\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\UserRole\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\UserRole\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\web.config" />
     <None Include="Properties\PublishProfiles\build_public.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -1902,9 +1870,7 @@
     <Content Include="Views\Home\Banner.cshtml" />
     <Content Include="Views\Content\Paging.cshtml" />
     <Content Include="Views\Shared\error.cshtml" />
-    <Content Include="Views\Match\Index.cshtml" />
     <Content Include="Views\Content\Detail.cshtml" />
-    <Content Include="Views\Match\Detail.cshtml" />
     <Content Include="Views\Content\SearchContent.cshtml" />
     <Content Include="Views\Content\SearchTag.cshtml" />
   </ItemGroup>

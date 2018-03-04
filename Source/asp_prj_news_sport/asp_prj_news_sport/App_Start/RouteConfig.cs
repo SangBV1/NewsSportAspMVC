@@ -18,19 +18,7 @@ namespace asp_prj_news_sport
                 defaults: new { controller = "Content", action = "Index", id = UrlParameter.Optional },
                 namespaces: new[] { "asp_prj_news_sport.Controllers" }
             );
-            routes.MapRoute(
-                name: "Match ",
-                url: "lich-thi-dau-vleague/",
-                defaults: new { controller = "Match", action = "Index", id = UrlParameter.Optional },
-                namespaces: new[] { "asp_prj_news_sport.Controllers" }
-            );
-
-            routes.MapRoute(
-                name: "Match Detail",
-                url: "thong-tin-tran-dau/{SlugMatch}-{match_id}/",
-                defaults: new { controller = "Match", action = "Detail", id = UrlParameter.Optional },
-                namespaces: new[] { "asp_prj_news_sport.Controllers" }
-            );
+            
             routes.MapRoute(
                 name: "Content Detail",
                 url: "{SlugContent}-{ID}/",
